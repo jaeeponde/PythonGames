@@ -7,8 +7,5 @@ self explantaory - tic tac toe.
 3. Blackjack :
 Single player against the dealer.
 
- 4. WAR :
-Multi Player Card game.
-
-5. Caser cipher :
+4. Caser cipher :
 A quick code to encode your sectret messages.
