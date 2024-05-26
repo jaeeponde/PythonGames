@@ -10,3 +10,5 @@ Single player against the dealer.
  4. WAR :
 Multi Player Card game.
 
+5. Caser cipher :
+A quick code to encode your sectret messages.
