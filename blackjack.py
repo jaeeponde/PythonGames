@@ -1,4 +1,3 @@
-
 suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')
 ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')
 values = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8,
@@ -106,27 +105,39 @@ def hit_or_stand(deck,hand):
         break
 
 def show_some(player,dealer):
-  print("\n Dealer's Hand :")
+  print("\nDealer's Hand :")
+  sleep(1)
   print("First Card : HIDDEN \n")
+  sleep(1)
   print(dealer.cards[1])
-  print("\n Player's Hand :")
+  print("\nPlayer's Hand :")
+  sleep(1)
   for item in player.cards:
     print(item)
+    sleep(1)
     print("\n")
 
   pass
 
+from time import sleep
+
 def show_all(player,dealer):
 
-  print("\n Player's Hand :")
+  print("\nPlayer's Hand :")
+  sleep(1)
   for item in player.cards:
     print(item)
+    sleep(1)
     print("\n")
   print(f"Value of players hand is : {player.value}")
+  sleep(1)
+  
 
-  print("\n Dealers's Hand :")
+  print("\nDealers's Hand :")
+  sleep(1)
   for item in dealer.cards:
     print(item)
+    sleep(1)
     print("\n")
   print(f"Value of dealers hand is : {dealer.value}")
 
